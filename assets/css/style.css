@@ -1,0 +1,885 @@
+:root {
+  --section: #222426;
+  --text: #fff;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #2eafec;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #0f1523;
+  overflow-y: auto;
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 100px;
+  border: 1px solid #2c2f3f;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header .profile .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu {
+  padding: 10px 0 0 0;
+}
+
+.nav-menu * {
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 1px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+  font-size: 24px;
+  padding-right: 8px;
+  color: #6f7180;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
+  color: #149ddd;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.png") top center;
+  background-size: cover;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+/* Styl pro celou stránku */
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-color: #0f1523;
+  background-position: center center;
+}
+
+.bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bubble {
+  position: absolute;
+  background: #3e6181;
+  opacity: 0.6;
+  border-radius: 50%;
+  animation: moveBubbles 10s infinite, fadeInOut 4s infinite;
+}
+
+@keyframes moveBubbles {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-100%) translateX(100%);
+  }
+
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+/* Styl pro nadpis v navigaci */
+.navbar-title {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 10px;
+  flex: 1;
+}
+
+/* Styl pro skóre */
+.score {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Styl pro dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown-toggle:hover {
+  background-color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-toggle {
+  background-color: #555;
+}
+
+/* Styl pro kontejner hry */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Styl pro informace o hře */
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styl pro obrázek hry */
+.game-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: 512px;
+  height: 512px;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.2s;
+  border-radius: 20%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+}
+
+/* Styl pro titulek hry */
+.game-title {
+  font-size: 24px;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Styl pro kontejner skóre */
+.score-container {
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styl pro skóre */
+.score {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Styl pro text titulku hry */
+.game-title-text {
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Styl pro kontejner menu */
+.menu-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  animation: fadeIn 0.3s;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Styl pro obsah menu */
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Styl pro titulek menu */
+.menu-title {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Styl pro skórovací box */
+.score-box {
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+/* Styl pro tlačítka */
+button {
+  margin: 10px 0 0 0;
+  padding-right: 8px;
+  padding: 1px;
+  margin-bottom: 8px;
+  align-items: center;
+  background-color: #2c4761;
+  border: 2px solid #2c4761;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #0f1523;
+  color: white;
+  border: 2px solid #2c4761;
+}
+
+/* Styl pro text s číslem 1 */
+.text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Styl pro text na levé straně */
+.text2 {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  color: #fff;
+}
+
+/* Styl pro text s číslem 3 */
+.text3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  /* Styl pro mobilní zařízení */
+  .game-image {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+  }
+
+  .game-title {
+    font-size: 18px;
+  }
+
+  .score {
+    font-size: 18px;
+  }
+
+  .menu-container {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-title {
+    margin-bottom: 10px;
+  }
+
+  .dropdown {
+    margin-top: 10px;
+  }
+}
+
+/* Upraveno: Responzivita pro tablet */
+@media (max-width: 900px) {
+  .game-title {
+    font-size: 20px;
+  }
+
+  .score {
+    font-size: 20px;
+  }
+}
+
+/* Upraveno: Responzivita pro mobilní telefony */
+@media (max-width: 480px) {
+  .game-title {
+    font-size: 16px;
+  }
+
+  .score {
+    font-size: 16px;
+  }
+}
+
+/* Vlastní proměnné */
+:root {
+  --section: #222426;
+  --text: #fff;
+}
+
+/* Styl pro celkový vzhled stránky */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+/* Header */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #0f1523;
+  overflow-y: auto;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
+
+/* Navigační menu */
+/* Desktop Navigation */
+.nav-menu {
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu * {
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 1px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+  font-size: 24px;
+  padding-right: 8px;
+  color: #6f7180;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
+  color: #149ddd;
+}
+
+/* Mobilní navigace */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #0f1523;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
+/* Sekce Hero */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("photo/bg1.jpg") top center;
+  background-size: cover;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Skóre */
+.score {
+  background-color: #0f1523;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#achievement-popup {
+  position: fixed;
+  top: 100px;
+  right: 10%;
+  padding: 10px;
+  background-color: #0f1523;
+  border-radius: 10px;
+  border: 10px solid #fff;
+  color: #fff;
+  display: none;
+}
+
+.footer-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-button:hover {
+  background-color: #0f1523;
+  color: white;
+}
+
+/* Styly pro roletku */
+.achievement-content {
+  display: none;
+  /* Počátečně skryjeme obsah roletky */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.achievement-content1 {
+  display: none;
+  /* Počátečně skryjeme obsah roletky */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}

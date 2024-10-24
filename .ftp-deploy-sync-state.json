@@ -1,0 +1,679 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1729785009509,
+    "data": [
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 3031,
+            "hash": "334dc11f53b0cbd7fe7addc3dfa56596be52822cf8a54a67e0cd76c197193fb0"
+        },
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 16992,
+            "hash": "c9ec96a073b7ae22b9b4779dbf63377360f00d31f053d93dd21966dcee08f9aa"
+        },
+        {
+            "type": "folder",
+            "name": "photo"
+        },
+        {
+            "type": "folder",
+            "name": "sounds"
+        },
+        {
+            "type": "folder",
+            "name": "assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/js"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor"
+        },
+        {
+            "type": "folder",
+            "name": "assets/img"
+        },
+        {
+            "type": "file",
+            "name": "photo/bg1.jpg",
+            "size": 1625675,
+            "hash": "b9336f391c1d4e0760a311c609a17ad94ae7305e2a24867cb176bacc03c76631"
+        },
+        {
+            "type": "file",
+            "name": "photo/george2.png",
+            "size": 45304,
+            "hash": "9dfdbd34bc8d3d73d4e2dc89cd9b6f5e37d1e3f59f8c62da8cde807afb01c362"
+        },
+        {
+            "type": "file",
+            "name": "photo/george1.png",
+            "size": 168171,
+            "hash": "1dac0b74cd8f6c034a80ba2d69b1005f35f25b1b57b377e7c9972e439b09a62e"
+        },
+        {
+            "type": "file",
+            "name": "photo/mira1.png",
+            "size": 418113,
+            "hash": "87bf0ef8c3af8d4c2adf8b913c31ed3be7470125dff8acb63f6eecdf9bcefca5"
+        },
+        {
+            "type": "file",
+            "name": "photo/mira2.png",
+            "size": 421749,
+            "hash": "f019d2f7235ecc13678425babdd22f8cc5150ede88b3dbe50e95dd7ffce859f1"
+        },
+        {
+            "type": "file",
+            "name": "photo/niki1.png",
+            "size": 226295,
+            "hash": "5e03427608022f680949b9ec4c9f0448c1366aa6cda60b51beafe81dd86abd97"
+        },
+        {
+            "type": "file",
+            "name": "photo/niki2.png",
+            "size": 371531,
+            "hash": "3df2ae4aaa5556c062244cdcecda8ff7fea0ae24e2ed5a72eb2a67044f084b15"
+        },
+        {
+            "type": "file",
+            "name": "sounds/1.mp3",
+            "size": 1632,
+            "hash": "7ca9f90a57b2c910efb4509d34e1e67748667861505cdab2b9d4a7f84862bef2"
+        },
+        {
+            "type": "file",
+            "name": "sounds/100b.mp3",
+            "size": 24768,
+            "hash": "bbc8f22e54dabf885299d183c06228e1b4b33c8d846d4d9e5ce4410f6f46b173"
+        },
+        {
+            "type": "file",
+            "name": "sounds/3.mp3",
+            "size": 6864,
+            "hash": "61a0971685008ae1f54b9ebe09b53acefba948dfe994e92e4243e72e240325ca"
+        },
+        {
+            "type": "file",
+            "name": "sounds/2.mp3",
+            "size": 8016,
+            "hash": "a7bd0c8cd9a436e7e5a85c42210b69bc009f3e9adc5e062bf685d864bb117ac1"
+        },
+        {
+            "type": "file",
+            "name": "sounds/4.mp3",
+            "size": 5280,
+            "hash": "acc6d946385dfbc839a8c3dd26b497b3b8733224dd5e0f4bc4f2c5ab7dd6a047"
+        },
+        {
+            "type": "file",
+            "name": "sounds/5.mp3",
+            "size": 7536,
+            "hash": "bfeeda5f1583a6b5ea28c1e8315d2a34245c916f1a8799137e823715004367a7"
+        },
+        {
+            "type": "file",
+            "name": "sounds/6.mp3",
+            "size": 10464,
+            "hash": "42d2b0a1ecdf9de650c44d66b191b93b3105f60e99bc682c4e0af669804b0842"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/style.css",
+            "size": 14232,
+            "hash": "4509a7b08367d28a712b7cc57f89e7d6247e11fc8eec1aa3da23473fe0b6eec5"
+        },
+        {
+            "type": "file",
+            "name": "assets/js/main.js",
+            "size": 16962,
+            "hash": "a93a06b0257717014b52ca5c340deb09809a07c03fbd0e06c2fc1d93346db557"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/aos"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/bootstrap"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/bootstrap-icons"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/boxicons"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/glightbox"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/isotope-layout"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/purecounter"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/swiper"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/typed.js"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/waypoints"
+        },
+        {
+            "type": "file",
+            "name": "assets/img/icon.ico",
+            "size": 38419,
+            "hash": "f405facd769fcda807c70c93e60b6c83113c9fcb2a46c2ce8de17e467ba7c16b"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/aos/aos.css",
+            "size": 26053,
+            "hash": "1aa8845fd06e475aefe733d4e55b36a92fcd487975049c8172341827ac9cc03e"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/aos/aos.js",
+            "size": 14690,
+            "hash": "a5005b2e414770fd5ccb40bc221a12771966d02b5c1f9c89da48bd8e3811d377"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/bootstrap/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/bootstrap/js"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+            "size": 95609,
+            "hash": "e1172d3a0a208cf01dc066f0abeaf17f00264a966159a69f71947d6edcd4935f"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap-icons/bootstrap-icons.json",
+            "size": 51087,
+            "hash": "12c7556613ff197bbda313367a6eb843c7851aa71ad92d05fd94cb5bcef03e85"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap-icons/bootstrap-icons.scss",
+            "size": 228090,
+            "hash": "ad358e3f183638c20a429da1dc05982059571810e8057ac8a1cd2f77589678a5"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/bootstrap-icons/fonts"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/boxicons/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/boxicons/fonts"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/glightbox/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/vendor/glightbox/js"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/isotope-layout/isotope.pkgd.js",
+            "size": 91398,
+            "hash": "699713f69dbd2387b7c3b57204bcdc3d86d3ac350718a7ad65a5293e0d2c53eb"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+            "size": 35445,
+            "hash": "081ae9baaacc857c1c2cb51de6dbd0e1eb811c2761ef01a50df373f2f6eefe22"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/purecounter/purecounter_vanilla.js",
+            "size": 5409,
+            "hash": "6b68e5ade742f1c41e98d4a7052dcfa69de8a5961c32144adee15091099060ff"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/purecounter/purecounter_vanilla.js.map",
+            "size": 24750,
+            "hash": "8eae596eb138a7238b7cfaacb137f3fa440cccbf649b9ce333914609640d02cd"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/swiper/swiper-bundle.min.css",
+            "size": 16493,
+            "hash": "322d15d99efb792c941a5202fa8fc7ee9e932847227383ff9605163338a08eac"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/swiper/swiper-bundle.min.js",
+            "size": 143706,
+            "hash": "f645b12f27c4e9c1210d5725cfa894b86464372e7b1becbe47126a5fe82f9ade"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/swiper/swiper-bundle.min.js.map",
+            "size": 540665,
+            "hash": "0d8892152abf1b21fc703dc1e27adfa76e2a561859f969dc82756424216cc1bc"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/typed.js/typed.js",
+            "size": 32880,
+            "hash": "70191fc0c1ff6e3a2ab0b99313cf8dd3229eca93a146f928e7cd877670baa408"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/typed.js/typed.min.js",
+            "size": 11792,
+            "hash": "5154391ed1d39ada814f7298e5c77802f238ee9a74809c0833eab8e470fda0b9"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/typed.js/typed.min.js.map",
+            "size": 49154,
+            "hash": "4b667bb20c193ae9001274e519c33faf9acefce15ff9a40fff67143a15e0a0b4"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/waypoints/noframework.waypoints.js",
+            "size": 21112,
+            "hash": "c8f4833e03df3d72f1fc0717b502538300c6f51d316d180d023ff47e2ceee39e"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.css",
+            "size": 71861,
+            "hash": "740d2c30c6ab1fa7fd9d79a81bc9f652d4cf81d30bf8540421069f7407649a36"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.css.map",
+            "size": 210357,
+            "hash": "cf96f82555060f2bb084080ec9e34cf3ecf34c054883dd8369addaac2b78fe3a"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.min.css",
+            "size": 53265,
+            "hash": "ef08436834c21d75e7a272480f9589d0cd4817e1e3ed7eecff4c1eaa6dc4e30f"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+            "size": 131395,
+            "hash": "916483494fcb5fd6dc780144fb380392488a45f2d809fb32a0a301777c8b36e1"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
+            "size": 71935,
+            "hash": "400dc8d301951207564dece1d4bcbc46439439212ebacf3baa4039f9a93cc7ac"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
+            "size": 210361,
+            "hash": "c02ddbc77faa62151bb95da1803294eb0bd5cb7c234447f46822e59697e33e55"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
+            "size": 53340,
+            "hash": "8b0f2c37be919d559d9238c169ca341976b8980181160370ad291477b714e66d"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+            "size": 131472,
+            "hash": "808fcbb2d912ee01e155f96f2ef8663414dfb266cf0d94b0e8230758f5f6feed"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.css",
+            "size": 7965,
+            "hash": "de3d850307386a5484f7bb1e5a3ae710cd2bc717044dac18024aab8ac09376a3"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
+            "size": 110875,
+            "hash": "ef63be161d8f9cf4e52225f53950be963e913e100c3783e79c2d448d0c688da6"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
+            "size": 6490,
+            "hash": "27657a197e7882be419660ca00985d301ffbe085787cd42692fba7cffbbf808b"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+            "size": 40331,
+            "hash": "c65a5f1c1b7794986052fdb923d0b65921e8e4e7bf69d62f5042d4f7264f815b"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
+            "size": 7958,
+            "hash": "0882b01a80663271a894c902dba221d7e385e9392bb58f34eb99a9b7c7ee6077"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
+            "size": 110888,
+            "hash": "5fd74cee73db3d9dfff0544f9f1a411cb6d50279b3bb4b38319bcf4d843358b6"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
+            "size": 6562,
+            "hash": "48a1ee97539e56557d948841443bc44f80b8c9304f276ad66496295d4db7414f"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+            "size": 48693,
+            "hash": "163e0314a19b320652c97882130dc851dfdbb62c24445b34b6c3a82d651bc356"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.css",
+            "size": 76347,
+            "hash": "765bdec45d5091de4080d31934d79e2d384ab65c8ad22c19cdc9d551abd3e1d8"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.css.map",
+            "size": 212450,
+            "hash": "ef206477fb3a048a540254c44db36cc8d41a6192cb188ecbe9281e5559a8dd34"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.min.css",
+            "size": 58266,
+            "hash": "294fbe577db1b30e931f51ae2f4a3b4fd0892e25b2ea713677ea9792e2cfb252"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
+            "size": 131956,
+            "hash": "d52866ed1d78a10c30895d50b035a6fbba04f1091867a3def5aaf12bc15f9fa8"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
+            "size": 76214,
+            "hash": "1336a4074a2fe973e86ddb7c43729d33ecfb47cfa03f7e5cf302a809aae429a2"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
+            "size": 212393,
+            "hash": "93b84f10f452d7be5e123498d8d8a9a739b5bef6561bc1a167746f7bfaf9192d"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
+            "size": 58194,
+            "hash": "ec663c98b84b22c83d5d3ecabad74da477d52a778019f97a612518d220f28fa7"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+            "size": 131791,
+            "hash": "67ba576ebd68a49c5770fd56eea254cde67a76400fa169d079c6119cd36ced02"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.css",
+            "size": 237950,
+            "hash": "22b464461c1d3b621c3f6fb5b678b6531ab0a704d0e1bd078ddd371b87473db0"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.css.map",
+            "size": 608300,
+            "hash": "ae5430d563ba9975d8543cfb00650e283b18c19c9603461a8460f2372af03f21"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.min.css",
+            "size": 194901,
+            "hash": "c0bcf7898fdc3b87babca678cd19a8e3ef570e931c80a3afbffcc453738c951a"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.min.css.map",
+            "size": 522639,
+            "hash": "ff724ca73ac50a9391851129cd451c98e8c3015a28ff851f97dad247b052a577"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.rtl.css",
+            "size": 237528,
+            "hash": "57bfa5bcd80da145cc697f382fcda877ebd83bdcbd1cb2d54c5b35fe720e6b08"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.rtl.css.map",
+            "size": 608144,
+            "hash": "70c410becfefa678a18db0336a6f36c62483a0cb3453f87106cfc41ad929b396"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.rtl.min.css",
+            "size": 195007,
+            "hash": "f9b340a2516fb7a601d8b81774440984a414c384f45dbac1c4b7f4947e0d603a"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
+            "size": 767483,
+            "hash": "8fa1eda2417716efb0cda572eb096059a70255019f730a132fa9413b2512fe4e"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.bundle.js",
+            "size": 207989,
+            "hash": "48861b2e0f0ac9bd765bc460c53ef3c0d01e50c7eb7e57755e929b73fd10d611"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
+            "size": 451770,
+            "hash": "9ede9d33f8ac97b6e37acb2e1dd915f4f5389728036ddb09bb70653de45bc80b"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+            "size": 80420,
+            "hash": "9520018fa5d81f4e4dc9d06afb576f90cbbaba209cfcc6cb60e1464647f7890b"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
+            "size": 333078,
+            "hash": "1921fd9d018340d87d0f69ce46f68a52ea25cf99fe96b98e1de74cfcff96559c"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.esm.js",
+            "size": 136215,
+            "hash": "6efa2db2859bfb0e74dea0327b58697319f8680c42ae39d4b9d4f7917759075e"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.esm.js.map",
+            "size": 308207,
+            "hash": "20f54cc835a84d3fb0cb1316ab265c02d07209d498b623d9847d2506b6c28cfe"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.esm.min.js",
+            "size": 73978,
+            "hash": "323c2818184b8ea6e06b0ddcc986818a08e71ec46b2daf33cb0f6faf4ef190a6"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.esm.min.js.map",
+            "size": 221179,
+            "hash": "0c0c1495c71216d503a6909b2f14d5acc147afec7482cd212ec8a022cfc14ce2"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.js",
+            "size": 145543,
+            "hash": "4ea6de9832c8e17c55a323a97dfbfe1532f9a0f9e74f46bfa962c9cb6fc035e8"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.js.map",
+            "size": 309348,
+            "hash": "e0fcd2fa3a0e8ee661dcf986bb9dc2d21c3edb637ac8cf0c2287c55ec31e62fa"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.min.js",
+            "size": 60404,
+            "hash": "9bcd4d0f29dc6556ebeeff44eaa0965f0c7f7308ee58394708cce2f698cca1b0"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap/js/bootstrap.min.js.map",
+            "size": 216913,
+            "hash": "973689199c4c7417a62153086e699c22e26c5ac1febaf7115cedab8f42230e17"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
+            "size": 164352,
+            "hash": "c6569d46a2e92b767b67d10c05b59e5d709da7c09d35426b629e31ae81d19d00"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
+            "size": 121296,
+            "hash": "966620f9e3bec428663687f9e8d67a6b8e35d79adebf6fb204e9b139eada7599"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/css/animations.css",
+            "size": 7137,
+            "hash": "2c7cb56699b2163853ad6096682bd9c00cd1c86a1f6d9e4e78635a98684a976e"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/css/boxicons.css",
+            "size": 94202,
+            "hash": "49a96c99761c4ccbb7a0f4d416738eb207de54872fbaa6be7883a22785f14d12"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/css/boxicons.min.css",
+            "size": 68028,
+            "hash": "620eea24b0cee1d8cc8395c80f295cf2e7b6fab962493c26b49a8d42b63a4dc9"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/css/transformations.css",
+            "size": 653,
+            "hash": "23e9aeebd43f9e8752d9b451e7e64282ba7bb6f8e9f2df45214fdd7b1b959a0d"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/fonts/boxicons.eot",
+            "size": 405670,
+            "hash": "c23887bb1c71c66599f84c6ada9408a619f8bbce2541b6c74129c2ae3a50e1f7"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/fonts/boxicons.svg",
+            "size": 1242122,
+            "hash": "3fe502d8c8f6a0bb86fc258e16aa6ec95a684ee50d693bd4fe305b467fd270bb"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/fonts/boxicons.ttf",
+            "size": 320944,
+            "hash": "47509a2dd79b019b0b914eed0ba4120748124889467a30a51f095c7adb41dc06"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/fonts/boxicons.woff",
+            "size": 321020,
+            "hash": "d5d511cf96072bc7d5db37f92c35b5306ad5cb5ba37f456abfb08ffa77f16286"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/boxicons/fonts/boxicons.woff2",
+            "size": 115680,
+            "hash": "4b87cbc74f3ffaf08314a5d81b501be6fc36f553dbe446ef5a4b29f0138ba0b0"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/glightbox/css/glightbox.css",
+            "size": 17372,
+            "hash": "f610e11d92a58d4b7962bc085bf2fb360f5008ed15edd13318ef5dbe00770267"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/glightbox/css/glightbox.min.css",
+            "size": 13749,
+            "hash": "6d3f62d4d17969f9c70e9438cf671004725019e868123f2ebc295a006f8d5d2d"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/glightbox/css/plyr.css",
+            "size": 52561,
+            "hash": "2fbbb603ad30eef4968ac8671554a0ef6530b37c5507a6d1dadcd80dd735c993"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/glightbox/css/plyr.min.css",
+            "size": 45081,
+            "hash": "c0caec9461e1bfba22e08f5b540f6e99a36f37be1676d7396cb0ee5c85c4bb8f"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/glightbox/js/glightbox.js",
+            "size": 109391,
+            "hash": "826b995de622c3271b9605fc62b5a46af3776ab37ddb7b2e82b7c369bd30808d"
+        },
+        {
+            "type": "file",
+            "name": "assets/vendor/glightbox/js/glightbox.min.js",
+            "size": 55880,
+            "hash": "03dfe1fbce92a9f17fcd1a1501213bd820d050ab085c338419ab06a3631c9459"
+        }
+    ]
+}
