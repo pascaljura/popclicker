@@ -295,21 +295,6 @@ var titleText = document.getElementById("game-title-text");
 var selectedButton = 1;
 var currentScore = 0;
 
-console.log("Toto funguje jen pro nějaké prohlížeče tak užívejte. GG ");
-
-// Načítání obrázku "rickroll.gif" a zobrazování ho jako konzolový log
-fetch("https://tenor.com/bt6Tw.gif")
-  .then((response) => response.blob())
-  .then((blob) => {
-    const reader = new FileReader();
-    reader.onload = function () {
-      console.log(
-        "%c ",
-        `padding-left: 320px; padding-bottom:320px; background: url('${this.result}') no-repeat; background-size: contain`
-      );
-    };
-    reader.readAsDataURL(blob);
-  });
 
 // Funkce pro obsluhu kliknutí na obrázek
 function handleClick() {
