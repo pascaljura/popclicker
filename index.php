@@ -738,7 +738,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Template JS File -->
   <script src="assets/js/main.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPW50ZLEL1"></script>
 </body>
