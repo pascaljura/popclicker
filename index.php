@@ -740,7 +740,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPW50ZLEL1"></script>
 </body>
 
 </html>
