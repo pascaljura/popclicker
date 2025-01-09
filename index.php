@@ -688,7 +688,7 @@
       <div class="achievement-content1">
         <!-- Tlačítka pro změnu obrázků -->
         <button onclick="changeImage(1)">
-          <i class="bx bx-user"></i><span>PopRuda</span>
+          <i class="bx bx-user"></i><span>PopCat</span>
         </button>
         <button onclick="changeImage(2)" id="btnNiki">
           <i class="bx bx-user"></i><span>PopHole</span>
